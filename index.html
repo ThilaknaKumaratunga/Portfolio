@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Thilakna Kumaratunga — Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS CSS for animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="avatar" aria-hidden="true">
+            <!-- simple SVG avatar -->
+            <svg
+              viewBox="0 0 120 120"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+            >
+              <defs>
+                <linearGradient id="g" x1="0" x2="1">
+                  <stop offset="0" stop-color="#a67c5a" />
+                  <stop offset="1" stop-color="#c49173" />
+                </linearGradient>
+              </defs>
+              <rect width="120" height="120" rx="18" fill="url(#g)" />
+              <text
+                x="50%"
+                y="58%"
+                font-size="44"
+                text-anchor="middle"
+                fill="#f7eee6"
+                font-family="Inter, system-ui"
+              >
+                TK
+              </text>
+            </svg>
+          </div>
+          <div>
+            <h1>Thilakna Kumaratunga</h1>
+            <p class="muted">Computer Science Engineer</p>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <button
+            id="nav-toggle"
+            aria-expanded="false"
+            aria-controls="nav-list"
+          >
+            ☰
+          </button>
+          <ul id="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#technologies">Technologies</a></li>
+            <li><a href="#references">References</a></li>
+          </ul>
+        </nav>
+
+        <div class="actions">
+          <a
+            class="btn github-btn"
+            href="https://github.com/ThilaknaKumaratunga"
+            target="_blank"
+            rel="noopener"
+            ><span class="btn-icon">📚</span>GitHub</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main class="container layout">
+      <aside class="aside">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <div class="contact-details">
+            <p>
+              <strong>📍 Location:</strong>
+              <span>Kandy, Sri Lanka</span>
+            </p>
+            <p>
+              <strong>📧 Email:</strong>
+              <a href="mailto:thilakna.20@cse.mrt.ac.lk"
+                >thilakna.20@cse.mrt.ac.lk</a
+              >
+            </p>
+            <p>
+              <strong>📱 Phone:</strong>
+              <a href="tel:+94710480631">+94 710 480631</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card tech-card">
+          <h3>Top technologies</h3>
+          <div class="badges">
+            <span class="badge">Python</span>
+            <span class="badge">ML / NLP</span>
+            <span class="badge">Neo4j</span>
+            <span class="badge">AWS</span>
+            <span class="badge">Docker</span>
+            <span class="badge">Letta</span>
+          </div>
+        </div>
+
+        <div class="card social-card">
+          <h3>🔗 Links</h3>
+          <div class="social-links">
+            <a href="https://github.com/ThilaknaKumaratunga" target="_blank" class="social-link github-link">
+              <span class="social-icon">📚</span>
+              <span class="social-text">GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/thilakna-kumaratunga/" target="_blank" class="social-link linkedin-link">
+              <span class="social-icon">💼</span>
+              <span class="social-text">LinkedIn</span>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <section class="content">
+        <section id="about" class="card">
+          <h2>Profile</h2>
+              <p>
+                I am a recent Computer Science and Engineering graduate with a
+                strong passion for data science, machine learning, MLOps, and
+                cloud engineering. I am driven by the challenge of solving
+                real-world problems and creating data-driven solutions with a
+                focus on continuous growth, innovation, and delivering impactful
+                results.
+              </p>
+          </div>
+        </section>
+
+        <section id="education" class="card">
+          <h2>Education</h2>
+          <div class="timeline" id="education-timeline">
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">July 2021 – Present</div>
+                <h3>University of Moratuwa</h3>
+                <h4>BSc Eng Hons, Computer Science & Engineering</h4>
+                <ul>
+                  <li>Minor in Mathematics</li>
+                  <li>GPA: 3.59/4.0 — Second Class Upper Division</li>
+                  <li>
+                    <strong>Core Modules:</strong> Data Science, Machine
+                    Learning, Advanced Machine Learning, Deep Neural Networks,
+                    Data Mining, Big Data Analytics, Data Structures and
+                    Algorithms, Data Communication and Networking, Operating
+                    Systems, Software Engineering, Bioinformatics
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2011 – 2019</div>
+                <h3>Mahamaya Girls' College, Kandy</h3>
+                <h4>Secondary Education</h4>
+                <ul>
+                  <li>G.C.E A/L 2019: 3A Passes (Physical Science Stream)</li>
+                  <li>G.C.E O/L 2016: 9A Passes</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="experience" class="card">
+          <h2>Experience</h2>
+          <div class="timeline" id="experience-timeline">
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">Nov 2023 – May 2024</div>
+                <h3>Research / Data Science Intern</h3>
+                <h4>LIRNEasia — Colombo, Sri Lanka</h4>
+                <ul>
+                  <li>
+                    Developed a Heat Vulnerability Index using satellite imagery
+                    and Principal Component Analysis (PCA).
+                  </li>
+                  <li>
+                    Built web crawlers and data extraction pipelines for a media
+                    disinformation initiative.
+                  </li>
+                  <li>
+                    Worked on the Lacuna project to improve data collection
+                    efficiency.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="card">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            <article class="project card">
+              <h3>MIST.ai Portfolio Manager</h3>
+              <p class="muted">May 2024 – Present</p>
+              <p>
+                Knowledge Graph Enhanced Portfolio Management with Multi Agent
+                Orchestration (Final Year Research Project). Integrated
+                Retrieval-Augmented Generation (RAG) and real-time news for
+                portfolio allocation on Colombo Stock Exchange.
+              </p>
+              <p class="tech">
+                <strong>Tech:</strong> Letta, OpenAI, LLMs, Python, Neo4j,
+                PyPortfolioOpt, Hugging Face
+              </p>
+              <p class="links">
+                <a href="https://github.com/mist-ai" target="_blank" class="project-link">
+                  <span class="link-icon">📚</span>GitHub
+                </a>
+                <a href="https://youtu.be/ml7uO8Fpi7M?si=n1vVc25DTE3NG5Ps" target="_blank" class="project-link">
+                  <span class="link-icon">📹</span>Video
+                </a>
+              </p>
+            </article>
+
+            <article class="project card">
+              <h3>Inventory Distribution Route Optimization</h3>
+              <p class="muted">Sep 2024 – Dec 2024</p>
+              <p>
+                Used IBM CPLEX to solve large route optimization with 30,000+
+                parameters and constraints. Applied mixed integer programming
+                and TSP models.
+              </p>
+              <p class="tech"><strong>Tech:</strong> Python, IBM CPLEX</p>
+              <p class="links">
+                <a href="https://github.com/ThilaknaKumaratunga/OR-Assets" target="_blank" class="project-link">
+                  <span class="link-icon">📚</span>GitHub
+                </a>
+              </p>
+            </article>
+
+            <article class="project card">
+              <h3>Smart Bill Analyzer</h3>
+              <p class="muted">Aug 2023 – Nov 2023</p>
+              <p>
+                OCR-based tool to extract, categorize and analyze bill data;
+                used Azure Cognitive Services and image preprocessing.
+              </p>
+              <p class="tech">
+                <strong>Tech:</strong> OpenCV, PIL, Azure AI, Streamlit, Plotly
+              </p>
+              <p class="links">
+                <a href="https://github.com/ThilaknaKumaratunga/SmartBillAnalyzer" target="_blank" class="project-link">
+                  <span class="link-icon">📚</span>GitHub
+                </a>
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="certifications" class="card">
+          <h2>Certifications</h2>
+          <div class="cert-grid">
+            <div class="cert">
+              <img
+                src="cert.png"
+                alt="AWS Academy Certificate"
+                class="cert-logo"
+              />
+              <span>AWS Academy Graduate - AWS Academy Data Engineering</span>
+            </div>
+            <div class="cert">
+              <img
+                src="cert.png"
+                alt="AWS MLA-C01 Certificate"
+                class="cert-logo"
+              />
+              <span
+                >MLA-C01 AWS Certified Machine Learning Engineer Associate
+                (Udemy)</span
+              >
+            </div>
+            <div class="cert">
+              <img src="cert.png" alt="NVIDIA Certificate" class="cert-logo" />
+              <span>Fundamentals of Deep Learning - NVIDIA</span>
+            </div>
+            <div class="cert">
+              <img src="cert.png" alt="AWS NLP Certificate" class="cert-logo" />
+              <span>Machine Learning for NLP - AWS Academy</span>
+            </div>
+            <div class="cert">
+              <img
+                src="cert.png"
+                alt="Stanford ML Certificate"
+                class="cert-logo"
+              />
+              <span
+                >Supervised Machine Learning - DeepLearningAI | Stanford</span
+              >
+            </div>
+            <div class="cert">
+              <img
+                src="cert.png"
+                alt="DeepLearning.AI Certificate"
+                class="cert-logo"
+              />
+              <span>Introduction to Generative AI - DeepLearning.AI</span>
+            </div>
+          </div>
+        </section>
+
+        <section id="technologies" class="card">
+          <h2>Technologies</h2>
+          <div class="tech-grid">
+            <div>
+              <strong>Languages</strong>
+              <p>Python, R, HTML, CSS, Java, JavaScript</p>
+            </div>
+            <div>
+              <strong>Technical Fields</strong>
+              <p>
+                Machine Learning, NLP, LLMs, Deep Learning, Prompt Engineering,
+                Multi Agent Systems
+              </p>
+            </div>
+            <div>
+              <strong>Databases</strong>
+              <p>MySQL, SQLite, PostgreSQL, Neo4j</p>
+            </div>
+            <div>
+              <strong>Tools &amp; Services</strong>
+              <p>
+                NumPy, Pandas, Scikit-learn, Matplotlib, Jupyter, Hugging Face,
+                RStudio
+              </p>
+            </div>
+            <div>
+              <strong>AWS Services</strong>
+              <p>
+                SageMaker, S3, EMR, Glue, IAM, Bedrock, EC2, Lambda, Athena,
+                CloudFormation, DynamoDB, CloudWatch
+              </p>
+            </div>
+            <div>
+              <strong>Other</strong>
+              <p>Docker, Git, Azure, LangChain, Letta</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="highlights" class="card">
+          <h2>Highlights</h2>
+          <div class="timeline" id="highlights-timeline">
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2019</div>
+                <h3>Chemistry Olympiad Sri Lanka</h3>
+                <h4>Finalist</h4>
+                <p>
+                  Achieved finalist status in the national Chemistry Olympiad
+                  competition.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2018</div>
+                <h3>Australian Chemistry Quiz</h3>
+                <h4>Fourth Best Performance Award with High Distinction</h4>
+                <p>
+                  Recognized for exceptional performance in the international
+                  chemistry competition.
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-date">2011</div>
+                <h3>Sri Lanka Mathematics & Science Olympiad</h3>
+                <h4>National Level Participation</h4>
+                <p>
+                  Participated at the national level in the Mathematics and
+                  Science Olympiad competition.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="references" class="card">
+          <h2>References</h2>
+          <div class="grid two">
+            <div>
+              <p>
+                <strong>Prof. Dulani Meedeniya</strong><br />Senior Lecturer —
+                University of Moratuwa<br /><a
+                  href="mailto:dulanim@cse.mrt.ac.lk"
+                  >dulanim@cse.mrt.ac.lk</a
+                >
+              </p>
+            </div>
+            <div>
+              <p>
+                <strong>Prof. Indika Perera</strong><br />Senior Lecturer —
+                University of Moratuwa<br /><a
+                  href="mailto:indika@cse.mrt.ac.lk"
+                  >indika@cse.mrt.ac.lk</a
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          Last updated: September 2024 • Built with HTML, CSS &amp; JavaScript
+        </p>
+      </div>
+    </footer>
+
+    <!-- AOS JS for animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
